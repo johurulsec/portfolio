@@ -44,7 +44,7 @@ const SkillProgress = ({ title, value }) => {
 				<span>{progress}%</span>
 			</div>
 			<progress
-				className="progress progress-primary w-full h-4"
+				className="progress accent-[#ACBCF9] w-full h-4 bg-gray-500"
 				value={progress}
 				max="100"
 			/>

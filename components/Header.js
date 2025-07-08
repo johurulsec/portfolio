@@ -5,7 +5,7 @@ import React from "react";
 const Header = () => {
 	const menu = ["Skills", "Work Experience", "Achievements", "Contact Me"];
 	return (
-		<div className="navbar bg-base-100 shadow-sm">
+		<div className="navbar bg-[#1D232A] text-white shadow-sm">
 			<div className="navbar-start">
 				<div className="dropdown">
 					<div

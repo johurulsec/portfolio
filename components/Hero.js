@@ -39,7 +39,7 @@ const Hero = () => {
 						<div className="flex text-4xl gap-2">
 							{socialLinks.map((social, idx) => (
 								<div key={idx}>
-									<a className="text-white btn text-3xl bg-transparent hover:text-[#5754E8]" href={social.link} target="_blank">
+									<a className="text-white btn text-3xl bg-transparent hover:text-[#ACBCF9]" href={social.link} target="_blank">
 										{social.icon}
 									</a>
 								</div>
@@ -47,8 +47,8 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="flex gap-5">
-						<button className="btn btn-primary">Contact Me</button>
-						<button className="btn btn-primary">Download My CV</button>
+						<button className="btn bg-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">Contact Me</button>
+						<button className="btn bg-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">Download My CV</button>
 					</div>
 				</div>
 			</div>
