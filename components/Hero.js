@@ -23,7 +23,7 @@ const Hero = () => {
 	];
 	console.log(socialLinks[0].icon);
 	return (
-		<div className="w-full md:flex py-10">
+		<div className="w-full md:flex py-10 text-white">
 			<div className="md:w-1/2 flex items-center justify-center">
 				<div className="space-y-5">
 					<div className="space-y-5">
@@ -40,7 +40,7 @@ const Hero = () => {
 						<div className="flex text-4xl gap-2">
 							{socialLinks.map((social, idx) => (
 								<div key={idx}>
-									<a className="btn text-3xl bg-transparent hover:text-[#5754E8]" href={social.link} target="_blank">
+									<a className="text-white btn text-3xl bg-transparent hover:text-[#5754E8]" href={social.link} target="_blank">
 										{social.icon}
 									</a>
 								</div>
