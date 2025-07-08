@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import React from "react";
 
 const Header = () => {
@@ -45,7 +46,7 @@ const Header = () => {
 						))}
 					</ul>
 				</div>
-				<a className="btn btn-ghost text-2xl">LA Mridul</a>
+				<Link href="/" className="btn btn-ghost text-2xl">LA Mridul</Link>
 			</div>
 			<div className="navbar-end hidden lg:flex">
 				<ul className="menu menu-horizontal px-1 text-xl gap-4">

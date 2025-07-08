@@ -21,14 +21,13 @@ const Hero = () => {
 			link: "mailto:lamridul.leo@gmail.com",
 		},
 	];
-	console.log(socialLinks[0].icon);
 	return (
 		<div className="w-full md:flex py-10 text-white">
 			<div className="md:w-1/2 flex items-center justify-center">
 				<div className="space-y-5">
 					<div className="space-y-5">
 						<div className="space-y-5">
-							<h1>Hi all, I&#39;m LA Mridul 👋</h1>
+							<h1 className="font-bold">Hi all, I&#39;m LA Mridul 👋</h1>
 							<p>
 								🚀 A passionate Full Stack Developer
 								specializing in building dynamic web apps with
