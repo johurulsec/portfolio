@@ -124,7 +124,7 @@ const Skills = () => {
 					<SkillsLottie />
 				</div>
 			</div>
-			<div className="w-full md:px-10 py-8">
+			<div className="w-full md:px-10 py-8 text-white">
 				<h2>Proficiency</h2>
 				{proficiencies.map((item, index) => (
 					<SkillProgress

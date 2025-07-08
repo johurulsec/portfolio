@@ -44,3 +44,14 @@ p{
   font-size: 18px;
   font-family: DM_Sans;
 }
+progress::-webkit-progress-value {
+  background-color: #ACBCF9;
+}
+
+progress::-moz-progress-bar {
+  background-color: #ACBCF9;
+}
+
+progress {
+  accent-color: #ACBCF9;
+}
