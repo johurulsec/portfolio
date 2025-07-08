@@ -31,7 +31,7 @@ const Header = () => {
 					</div>
 					<ul
 						tabIndex={0}
-						className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-inter"
+						className="menu menu-sm dropdown-content bg-gray-500 rounded-box z-1 mt-3 w-52 p-2 shadow font-inter"
 					>
 						{menu.map((item, index) => (
 							<li key={index}>
@@ -51,7 +51,7 @@ const Header = () => {
 			<div className="navbar-end hidden lg:flex">
 				<ul className="menu menu-horizontal px-1 text-xl gap-4">
 					{menu.map((item, index) => (
-						<li key={index}>
+						<li className="hover:bg-[#E2E2E2] rounded hover:text-[#18181B]" key={index}>
 							<a
 								href={`#${item
 									.toLowerCase()
