@@ -40,7 +40,7 @@ const Hero = () => {
 						<div className="flex text-4xl gap-2">
 							{socialLinks.map((social, idx) => (
 								<div key={idx}>
-									<a href={social.link} target="_blank">
+									<a className="btn text-3xl bg-transparent hover:text-[#5754E8]" href={social.link} target="_blank">
 										{social.icon}
 									</a>
 								</div>
