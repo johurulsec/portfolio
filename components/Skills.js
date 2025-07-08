@@ -3,7 +3,7 @@ import SkillsLottie from "./SkillsLottie";
 
 const Skills = () => {
 	return (
-		<div className="w-full md:flex py-10">
+		<div className="w-full md:flex py-10 text-white">
 			<div className="md:w-1/2 flex items-center justify-center order-2">
 				<div className="space-y-5">
 					<h1>What I do?</h1>
