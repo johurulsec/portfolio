@@ -3,7 +3,6 @@ import Education from "./Education";
 import SkillsLottie from "./SkillsLottie";
 import Image from "next/image";
 
-
 const Skills = () => {
 	const skills = [
 		{
@@ -114,10 +113,7 @@ const Skills = () => {
 					<SkillsLottie />
 				</div>
 			</div>
-			<div className="w-full md:px-10 py-8 text-white space-y-5">
-				<h2>Education</h2>
-				<Education></Education>
-			</div>
+			
 		</div>
 	);
 };

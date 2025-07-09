@@ -22,7 +22,7 @@ const Hero = () => {
 		},
 	];
 	return (
-		<div className="w-full md:flex py-10 text-white">
+		<div className="w-full md:flex py-10 text-white pt-16 md:pt-20">
 			<div className="md:w-1/2 flex items-center justify-center">
 				<div className="space-y-5">
 					<div className="space-y-5">
@@ -47,8 +47,8 @@ const Hero = () => {
 						</div>
 					</div>
 					<div className="flex gap-5">
-						<button className="btn bg-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">Contact Me</button>
-						<button className="btn bg-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">Download My CV</button>
+						<button className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">Contact Me</button>
+						<button className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">Download My CV</button>
 					</div>
 				</div>
 			</div>
