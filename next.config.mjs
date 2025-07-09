@@ -17,6 +17,10 @@ const nextConfig = {
 				protocol: "https",
 				hostname: "registry.npmmirror.com",
 			},
+			{
+				protocol: "https",
+				hostname: "i.ibb.co",
+			},
 		],
 	},
 };

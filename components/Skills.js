@@ -1,9 +1,8 @@
 "use client";
-import React, { useEffect, useRef, useState } from "react";
+import Education from "./Education";
 import SkillsLottie from "./SkillsLottie";
 import Image from "next/image";
-import { Flex, Progress } from "antd";
-import SkillProgress from "./SkillProgress";
+
 
 const Skills = () => {
 	const skills = [
@@ -72,15 +71,6 @@ const Skills = () => {
 			icon: "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/vercel.png",
 		},
 	];
-	const proficiencies = [
-		{ title: "HTML", value: 75 },
-		{ title: "CSS", value: 65 },
-		{ title: "JavaScript", value: 70 },
-		{ title: "React", value: 70 },
-		{ title: "Next.js", value: 60 },
-		{ title: "MongoDB", value: 75 },
-		{ title: "Tailwind CSS", value: 88 },
-	];
 	return (
 		<div className="w-full">
 			<div id="skills" className="w-full md:flex py-10 text-white">
@@ -124,15 +114,9 @@ const Skills = () => {
 					<SkillsLottie />
 				</div>
 			</div>
-			<div className="w-full md:px-10 py-8 text-white">
-				<h2>Proficiency</h2>
-				{proficiencies.map((item, index) => (
-					<SkillProgress
-						key={index}
-						title={item.title}
-						value={item.value}
-					/>
-				))}
+			<div className="w-full md:px-10 py-8 text-white space-y-5">
+				<h2>Education</h2>
+				<Education></Education>
 			</div>
 		</div>
 	);
