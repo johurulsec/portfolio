@@ -1,5 +1,6 @@
 import Education from "@/components/Education";
 import AllExperiences from "@/components/Experiences";
+import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Skills from "@/components/Skills";
 
@@ -10,6 +11,7 @@ export default function Home() {
 			<Skills/>
 			<Education/>
 			<AllExperiences/>
+			<Footer/>
 		</div>
 	);
 }
