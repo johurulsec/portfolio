@@ -6,7 +6,7 @@ const Header = () => {
 	const [showHeader, setShowHeader] = useState(true);
 	const [lastScrollY, setLastScrollY] = useState(0);
 
-	const menu = ["Skills", "Work Experience", "Achievements", "Contact Me"];
+	const menu = ["Skills", "Education", "Work Experience", "Achievements", "Contact Me"];
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -78,7 +78,7 @@ const Header = () => {
 					LA Mridul
 				</Link>
 			</div>
-			<div className="navbar-end hidden lg:flex">
+			<div className="navbar hidden lg:flex">
 				<ul className="menu menu-horizontal px-1 text-xl gap-4">
 					{menu.map((item, index) => (
 						<li
