@@ -40,8 +40,8 @@ const AllExperiences = () => {
 		}
 	];
 	return (
-		<div className="" id="work-experience">
-			<h2 className="font-bold">Experiences</h2>
+		<div className="" id="work-experience ">
+			<h2 className="font-bold text-white">Experiences</h2>
 			<div className="mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-10 justify-center">
 				{experiences.map((exp, idx) => (
 					<ExperienceCard exp={exp} key={idx} />

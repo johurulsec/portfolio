@@ -15,7 +15,7 @@ const ExperienceCard = ({ exp }) => {
 					sizes="100vw"
 				/>
 			</figure>
-			<div className="card-body">
+			<div className="card-body bg-[#1D232A] text-white">
 				<h2 className="card-title">
 					{company}
 					<span className="text-[12px] mt-4">{position}</span>
