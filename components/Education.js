@@ -35,7 +35,7 @@ const Education = () => {
 	];
 	console.log(educations[0]);
 	return (
-		<div className="w-full md:px-10 py-8 text-white space-y-5">
+		<div id="education" className="w-full md:px-10 py-8 text-white space-y-5">
 			<h2 className="font-bold">Education</h2>
 			<div className="space-y-10">
 				{educations?.map((edu, idx) => (
