@@ -20,7 +20,7 @@ const SocialLinks = () => {
 		},
 	];
 	return (
-		<div className="flex text-4xl gap-2">
+		<div className="flex text-4xl gap-2" id="skills">
 			{socialLinks.map((social, idx) => (
 				<div key={idx}>
 					<a
