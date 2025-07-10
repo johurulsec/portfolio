@@ -43,8 +43,8 @@ const Education = () => {
 						<Image
 							src={edu?.icon}
 							alt={edu?.institution}
-							width={50}
-							height={50}
+							width={80}
+							height={80}
 						/>
 						<h4>{edu?.institution}</h4>
 						<p>{edu?.department}</p>
