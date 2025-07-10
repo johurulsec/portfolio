@@ -72,7 +72,7 @@ const Skills = () => {
 	];
 	return (
 		<div className="w-full">
-			<div id="skills" className="w-full md:flex py-10 text-white">
+			<div className="w-full md:flex py-10 text-white">
 				<div className="md:w-1/2   order-2">
 					<div className="space-y-5">
 						<h1 className="font-bold">What I do?</h1>
@@ -103,9 +103,9 @@ const Skills = () => {
 							⚡ Crafting highly interactive and responsive user
 							interfaces for web and mobile apps <br />⚡ Building
 							Progressive Web Apps (PWAs) with modern SPA and
-							multi-page stacks <br />⚡ Integrating third-party
+							multi-page stacks <br /><span id="education">⚡ Integrating third-party
 							services like Firebase, AWS, and DigitalOcean for
-							robust backend support
+							robust backend support</span>
 						</p>
 					</div>
 				</div>

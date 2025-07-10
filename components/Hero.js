@@ -5,7 +5,7 @@ import SocialLinks from "./SocialLinks";
 import Link from "next/link";
 const Hero = () => {
 	return (
-		<div className="w-full md:flex py-10 text-white pt-16 md:pt-20">
+		<div className="w-full md:flex py-10 text-white pt-16 md:pt-20" id="top">
 			<div className="md:w-1/2 flex items-center justify-center">
 				<div className="space-y-5">
 					<div className="space-y-5">
@@ -13,7 +13,7 @@ const Hero = () => {
 							<h1 className="font-bold">
 								Hi all, I&#39;m LA Mridul 👋
 							</h1>
-							<p>
+							<p id="resume">
 								🚀 A passionate Full Stack Developer
 								specializing in building dynamic web apps with
 								JavaScript, React.js, Next.js, and Node.js —

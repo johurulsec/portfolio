@@ -6,7 +6,7 @@ const Header = () => {
 	const [showHeader, setShowHeader] = useState(true);
 	const [lastScrollY, setLastScrollY] = useState(0);
 
-	const menu = ["Skills", "Education", "Work Experience", "Achievements", "Contact Me"];
+	const menu = ["Skills", "Education", "Work Experience", "Resume", "Contact Me"];
 
 	useEffect(() => {
 		const handleScroll = () => {
