@@ -11,7 +11,7 @@ const Hero = () => {
 					<div className="space-y-5">
 						<div className="space-y-5">
 							<h1 className="font-bold">
-								Hi all, I&#39;m LA Mridul 👋
+								Hi all, I&#39;m Md. Johurul Islam 👋
 							</h1>
 							<p id="resume">
 								🚀 A passionate Full Stack Developer

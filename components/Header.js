@@ -75,7 +75,7 @@ const Header = () => {
 					</ul>
 				</div>
 				<Link href="/" className="btn btn-ghost text-2xl">
-					LA Mridul
+					Md. Johurul Islam
 				</Link>
 			</div>
 			<div className="navbar hidden lg:flex">
