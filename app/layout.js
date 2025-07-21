@@ -6,9 +6,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-dm-sans" });
 
 export const metadata = {
-	title: "LA Mridul(Full-Stack Developer)",
+	title: "Md Johurul Islam(Full-Stack Developer)",
 	description:
-		"Portfolio of LA Mridul, full-stack JavaScript developer specializing in React, Next.js, and modern web technologies. View projects, read my blog, or get in touch.",
+		"Portfolio of Md Johurul Islam, full-stack JavaScript developer specializing in React, Next.js, and modern web technologies. View projects, read my blog, or get in touch.",
 	icons: {
 		icon: "/favicon.png",
 	},
