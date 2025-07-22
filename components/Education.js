@@ -48,6 +48,7 @@ const Education = () => {
 							alt={edu?.institution}
 							width={80}
 							height={80}
+							className='rounded-2xl'
 						/>
 						<h4>{edu?.institution}</h4>
 						<p>{edu?.department}</p>

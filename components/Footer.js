@@ -17,6 +17,7 @@ const Footer = () => {
                     alt="Picture of Md. Johurul Islam"
                     width={300}
                     height={300}
+                    className='rounded-2xl'
                 />
             </div>
         </div>
