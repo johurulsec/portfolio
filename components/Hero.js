@@ -11,14 +11,18 @@ const Hero = () => {
 					<div className="space-y-5">
 						<div className="space-y-5">
 							<h1 className="font-bold">
-								Hi all, I&#39;m LA Mridul 👋
+
+								Hi all, I&#39;m Md. Johurul Islam 👋
 							</h1>
 							<p id="resume">
-								🚀 A passionate Full Stack Developer
-								specializing in building dynamic web apps with
+
+								🚀 A passionate Full Stack Software Engineer
+								specializing in building dynamic web apps with Python, Django, 
 								JavaScript, React.js, Next.js, and Node.js —
 								blending clean code with modern UI for powerful
-								digital experiences.
+								digital experiences. Computer vision-related task using C++, AI, ML,
+								Deep Learning, Neural Network, OpenAI, LLM, NLP etc.						
+
 							</p>
 						</div>
 						<div className="">
@@ -29,7 +33,8 @@ const Hero = () => {
 						<Link href="#contact-me" className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">
 							Contact Me
 						</Link>
-						<Link href="https://drive.google.com/file/d/1u1K1JTw9ZUbuGcN9I23uWfrZCFD_oFVv/view" target="_blank" className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">
+
+						<Link href="https://drive.google.com/file/d/1frkFyQmy81FEiRTGypjjswqfE64Jsnqy/view?usp=drive_link" target="_blank" className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">
 							Download My CV
 						</Link>
 					</div>

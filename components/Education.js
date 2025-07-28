@@ -5,31 +5,34 @@ import React from "react";
 const Education = () => {
 	const educations = [
 		{
-			icon: "https://i.ibb.co/5h7hp8kC/GAR.png",
-			institution: "GHUNIPARA ABDUR RASHID SCHOOL AND COLLEGE",
+			// icon: "https://i.ibb.co/5h7hp8kC/GAR.png",
+
+			icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVYCUrs6fYr3VGLt4mS0ftRPbvrIgfeab3Bg&s",
+			institution: "Digpait D.K. High SCHOOL",
 			department: "Science",
 			from: "",
 			to: "",
-			completed: "2015",
+			completed: "2010",
 			project: "",
 			research: "",
 		},
 		{
-			icon: "https://i.ibb.co/tpfGBWzT/RLC-removebg-preview-1.png",
-			institution: "RESIDENTIAL LABORATORY COLLEGE",
+			//icon: "https://i.ibb.co/tpfGBWzT/RLC-removebg-preview-1.png",
+			icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQEnXHn-v9nfFzMQsY2F13YkTaMkovWUsI2A&s",
+			institution: "Shahid Syed Nazrul Islam COLLEGE",
 			department: "Science",
-			from: "2017",
-			to: "2019",
+			from: "2011",
+			to: "2013",
 			project: "",
 			research: "",
 		},
 		{
-			icon: "https://i.ibb.co/XrtQnrpy/city-University.png",
-			institution: "CITY UNIVERSITY",
+			icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9yXhZNGhLZ06a7dVJwDzInbNM8w6Re0t-zA&s",
+			institution: "Shahjalal University Of Science & Technology. Ins.(Sylhet Engineering College)",
 			department: "COMPUTER SCIENCE AND ENGINEERING",
-			from: "2018",
-			to: "2022",
-			project: "Online Auction System - Python, Django",
+			from: "2014",
+			to: "2019",
+			project: "Programmer, also C++, Python, Django",
 			research: "",
 		},
 	];
@@ -45,6 +48,8 @@ const Education = () => {
 							alt={edu?.institution}
 							width={80}
 							height={80}
+
+							className='rounded-2xl'
 						/>
 						<h4>{edu?.institution}</h4>
 						<p>{edu?.department}</p>

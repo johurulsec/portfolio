@@ -6,17 +6,21 @@ const SocialLinks = () => {
 		{
 			title: "GitHUb",
 			icon: <FaGithub />,
-			link: "https://github.com/ahmad-mridul",
+
+			link: "https://github.com/johurulsec",
 		},
 		{
 			title: "LinkedIn",
 			icon: <FaLinkedin />,
-			link: "https://www.linkedin.com/in/la-mridul/",
+
+			link: "https://www.linkedin.com/in/md-johurul-islam-8063a0148/",
+
 		},
 		{
 			title: "Gmail",
 			icon: <IoMdMail />,
-			link: "mailto:lamridul.leo@gmail.com",
+			link: "mailto:johurul.sec@gmail.com",
+
 		},
 	];
 	return (
