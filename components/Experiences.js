@@ -39,13 +39,7 @@ const AllExperiences = () => {
 		// 	duration: "October,2023 - June,2024",
         //     description:"Developed visually appealing and functional WordPress websites tailored to client requirements. Managed theme customization, plugin integration, and performance optimization to ensure a smooth user experience."
 		// },
-		{
-			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtsV2QDL5XC2upDQf4TJFe6dTmFR3NyQkYg&s",
-			company: "BulipeTech",
-			position: "Senior Software Engineer(Backend)",
-			duration: "June,2025 - Continue",
-            description:"Built and maintained scalable back-end features using C++, Qt, OpenAI, React.js and integrated them with Express and MongoDB-based backends. Focused on modular design, performance optimization, and user-friendly interfaces."
-		}
+		
 	];
 	return (
 		<div className="">
