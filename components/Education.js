@@ -5,6 +5,8 @@ import React from "react";
 const Education = () => {
 	const educations = [
 		{
+			// icon: "https://i.ibb.co/5h7hp8kC/GAR.png",
+
 			icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVYCUrs6fYr3VGLt4mS0ftRPbvrIgfeab3Bg&s",
 			institution: "Digpait D.K. High SCHOOL",
 			department: "Science",
@@ -15,6 +17,7 @@ const Education = () => {
 			research: "",
 		},
 		{
+			//icon: "https://i.ibb.co/tpfGBWzT/RLC-removebg-preview-1.png",
 			icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQEnXHn-v9nfFzMQsY2F13YkTaMkovWUsI2A&s",
 			institution: "Shahid Syed Nazrul Islam COLLEGE",
 			department: "Science",
@@ -24,6 +27,7 @@ const Education = () => {
 			research: "",
 		},
 		{
+
 			icon: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9yXhZNGhLZ06a7dVJwDzInbNM8w6Re0t-zA&s",
 			institution: "Shahjalal University Of Science & Technology. Ins.(Sylhet Engineering College)",
 			department: "COMPUTER SCIENCE AND ENGINEERING",

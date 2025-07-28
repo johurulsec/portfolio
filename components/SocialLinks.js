@@ -16,6 +16,7 @@ const SocialLinks = () => {
 		{
 			title: "Gmail",
 			icon: <IoMdMail />,
+
 			link: "mailto:johurul.sec@gmail.com",
 		},
 	];
