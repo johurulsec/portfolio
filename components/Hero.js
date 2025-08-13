@@ -16,17 +16,11 @@ const Hero = () => {
 							<p id="resume">
 
 								🚀 A passionate Full Stack Software Engineer
-								specializing in building dynamic web apps with Python, Django, 
-								JavaScript, React.js, Next.js, and Node.js —
+								specializing in building client projects with Python, Django, 
+								REST, JavaScript, React.js, and Node.js —
 								blending clean code with modern UI for powerful
-								digital experiences. Computer vision-related task using C++, AI, ML,
-								Deep Learning, Neural Network, OpenAI, LLM, NLP etc.
-
-								🚀 A passionate Full Stack Developer
-								specializing in building dynamic web apps with
-								JavaScript, React.js, Next.js, and Node.js —
-								blending clean code with modern UI for powerful
-								digital experiences.
+								digital experiences. Computer vision-related task using C++, Qt, OpenCV, AI, ML,
+								Deep Learning, Neural Network, OpenAI, LLM, NLP, AWS etc.
 
 							</p>
 						</div>
