@@ -4,9 +4,10 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
+    "clean": "rimraf .next",
+    "build": "npm run clean && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint"         
   },
   "dependencies": {
     "antd": "^5.26.4",
