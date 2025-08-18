@@ -35,6 +35,7 @@ const Skills = () => {
     { title: "Kubernetes", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" },
     { title: "Tensorflow", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg" },
     { title: "Pytorch", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" },
+    { title: "Hugging Face", icon: "https://huggingface.co/front/assets/huggingface_logo.svg" },
   ];
 
   return (
