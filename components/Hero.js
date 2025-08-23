@@ -32,7 +32,7 @@ const Hero = () => {
 						<Link href="#contact-me" className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">
 							Contact Me
 						</Link>
-						<Link href="https://drive.google.com/file/d/1ZHxKT_oZ99mltQJVx_TQmEfPvzqQV9Zc/view?usp=drive_link" target="_blank" className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">
+						<Link href="https://drive.google.com/file/d/1WkyPlyZ_JlqeocQxhI62vZdAXBAaAsst/view?usp=drive_link" target="_blank" className="btn bg-[#ACBCF9] hover:border-[#ACBCF9] hover:text-[#ACBCF9] hover:bg-transparent">
 							Download My CV
 						</Link>
 					</div>
