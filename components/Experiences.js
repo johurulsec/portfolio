@@ -15,16 +15,16 @@ const AllExperiences = () => {
 			logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRtsV2QDL5XC2upDQf4TJFe6dTmFR3NyQkYg&s",
 			company: "BulipeTech Limited",
 			position: "Senior Software Engineer(Backend)",
-			duration: "June 2025 - Continue",
+			duration: "June 2025 - Oct 2025",
             description:"Computer vision related task. Build client project architecture, base-code implementation, testing, debugging, and final deployment."
 		},
-		// {
-		// 	logo: "https://celebrationsbd.net/wp-content/uploads/2024/03/Asset-12-8-1.png",
-		// 	company: "CelebrationsBD",
-		// 	position: "Graphic Designer",
-		// 	duration: "February,2020 - August,2020",
-        //     description:"Designed and delivered high-quality graphics for various media, ensuring brand consistency and visual appeal. Collaborated on creative concepts, executed revisions, and maintained up-to-date knowledge of design tools and trends."
-		// },
+		{
+			logo: "https://www.google.com/search?sca_esv=3427d31d1497226b&sxsrf=AE3TifOABptSBvUBnOv4wQ7Qq9pMAJDN3w:1764916717247&udm=2&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIeuYzzFkfneXafNx6OMdA4MQRJc_t_TQjwHYrzlkIauOK4mV84QoBrfDRZELH2lrDvtOiYYC-T-TR6DZp02MM5uD0lp5DhqYAbp3OfH75BdLIvoG0oA0Gn0UBpf3fbnGaQ1BR9F6icRJ8ItIu24Tt2Jt8LZ8OEzNJGgIBp_BfIi9T0N2Acw&q=credosense+image&sa=X&ved=2ahUKEwjik_WP66WRAxXDXGwGHb0YOagQtKgLegQIExAB&biw=1600&bih=689&dpr=1.2#sv=CAMSVhoyKhBlLWZNVEhnZ3hrcDdBUmtNMg5mTVRIZ2d4a3A3QVJrTToOVU5XYk95OHVfaE1iME0gBCocCgZtb3NhaWMSEGUtZk1USGdneGtwN0FSa00YADABGAcgie-0ygIwAkoKCAIQAhgCIAIoAg",
+			company: "CredoSense Limited",
+			position: "Full Stack Engineer",
+			duration: "Nov 2025 - Continue",
+            description:"Full IT Support."
+		},
 		// {
 		// 	logo: "https://sebpo.com/wp-content/uploads/2025/04/SEBPO-Logo-2025.jpg",
 		// 	company: "SEBPO",
