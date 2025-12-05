@@ -19,7 +19,7 @@ const AllExperiences = () => {
             description:"Computer vision related task. Build client project architecture, base-code implementation, testing, debugging, and final deployment."
 		},
 		{
-			logo: "https://credosense.com/wp-content/uploads/2024/05/og_img.jpg",
+			logo: "https://ibb.co.com/TBmMTTgz",
 			company: "CredoSense Limited",
 			position: "Full Stack Engineer",
 			duration: "Nov 2025 - Continue",
